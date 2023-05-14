@@ -28,8 +28,39 @@ ol,
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.header {
+    padding: 24px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.header-section {
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-links {
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.link a {
+    color: #f9faf8;
 }

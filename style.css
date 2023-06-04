@@ -107,7 +107,8 @@ img {
     align-items: center;
 }
 
-.banner-signup-button {
+.banner-signup-button,
+.action-signup-button {
     background-color: #3882f6;
     color: white;
     padding: 8px 30px;
@@ -187,4 +188,32 @@ img {
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px;
+}
+
+.action-container {
+    width: 1000px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.action-signup-button {
+    border: 1px solid white;
+    flex-shrink: 0;
+}
+
+.action-heading {
+    font-weight: bold;
 }

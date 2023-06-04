@@ -64,3 +64,54 @@ img {
 .link a {
     color: #f9faf8;
 }
+
+.banner {
+    padding: 0 24px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-row {
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-text-column {
+    flex: 0 1 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+.banner-info {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.banner-image-column {
+    background-color: gray;
+    height: 300px;
+    flex: 0 1 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-signup-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}

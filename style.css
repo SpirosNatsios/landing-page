@@ -130,7 +130,7 @@ img {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .cards-container {
@@ -157,4 +157,34 @@ img {
 .card-text {
     text-align: center;
     width: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.quote-text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 1 900px;
+    gap: 15px;
+}
+
+.quote-text {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 }
